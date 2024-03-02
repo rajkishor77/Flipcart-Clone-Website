@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+:root{
+    --main-bg-color:#2874f0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+    /* border: 2px solid red; */
+    font-family: 'Courgette', cursive;
+}
+nav{
+    display: flex ;
+}
+.logo{
+    display: flex;
+    align-items: center ;
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+nav ul{
+    height: 60px;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center ; 
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    /* color: white; */
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    height: 27px;
+    width: 492px;
+    border-radius: 2px;
+    margin: 0 14px 0 56px ;
+    padding: 0 12px;
+}
+.slider{
+    margin:12px auto;
+    width: 80vw;
+}
+.card h2{
+    font-family: 'Courgette', cursive;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 45px;
+}
+.cards{
+    /* display: flex; */
+    overflow: hidden;
+}
+.card{
+    max-width: 91vw;
+    margin: auto;
+    font-family: 'Courgette', cursive;
+}
+.search button{
+    font-family: 'Courgette', cursive;
+    font-weight: 900;
+}
+.container{
+    min-height:80vh;
+    /* min-height: calc(100vh -12vh -60px); */
+}
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Courgette', cursive;
+}
